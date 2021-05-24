@@ -3,8 +3,20 @@ body {
   color: #212121; /* цвет основного текста #212121 */
 }
 
-. .filters-list,
-.project-list .accent {
+/* убрать стиль маркера */
+.menu-list,
+.top-contacts-list,
+.features-list,
+.we-doing-list,
+.team-list,
+.filters-list,
+.project-list,
+.footer-list {
+  list-style: none;
+}
+/* убрать стиль маркера */
+
+.accent {
   color: #2196f3; /* применить цвет акцента в лого */
 }
 
