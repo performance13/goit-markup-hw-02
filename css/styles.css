@@ -2,10 +2,16 @@
 body {
   background-color: #ffffff; /* todo цвет главного фона #ffffff */
   color: #212121; /* todo цвет основного текста #212121 */
+  font-family: Roboto, sans-serif;
 }
 
 .accent {
   color: #2196f3; /* todo цвет акцента в лого */
+}
+
+.menu-list .menu-item > a {
+  /* todo цвет навигационного меню */
+  color: #212121;
 }
 
 .top-contacts-item > a {
@@ -43,6 +49,28 @@ body {
 
 /* !ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 
+/* ? header */
+.menu-list .menu-item :hover,  /* стиль элемента при наведении на него курсора мыши */
+.menu-list .menu-item :focus {
+  /* стиль для элемента получающего фокус */
+  color: #2196f3;
+}
+
+.top-contacts-list .top-contacts-item :hover,  /* стиль элемента при наведении на него курсора мыши */
+.top-contacts-list .top-contacts-item :focus {
+  /* стиль для элемента получающего фокус */
+  color: #2196f3;
+}
+/* ? header */
+
+/* ? maine */
+
+/* ? maine */
+
+/* ? footer */
+
+/* ? footer */
+
 /* *Палитра цветов */
 
 /* //цвет основного текста #212121 */
@@ -67,3 +95,12 @@ body {
 /* цвет футера #2F303A */
 
 /* *Палитра цветов */
+
+/* todo portfolio.html */
+.filters-item :hover, /* стиль элемента при наведении на него курсора мыши */
+.filters-item :focus {
+  /* стиль для элемента получающего фокус */
+  background-color: #2196f3; /* определяет цвет фона элемента */
+  color: #ffffff; /* определяет цвет текста элемента */
+}
+/* todo portfolio.html */
