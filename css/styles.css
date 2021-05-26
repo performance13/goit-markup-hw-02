@@ -43,7 +43,7 @@ body {
 .logo,
 .menu-item > a,
 .top-contacts-item > a,
-.footer-list > a {
+.footer-list > li > a {
   text-decoration: none;
 }
 /* отменяет подчеркивания у ссылок, которое задано по умолчанию.  */
