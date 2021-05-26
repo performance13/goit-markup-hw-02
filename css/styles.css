@@ -1,27 +1,50 @@
-/* ?ОСНОВНЫЕ ЦВЕТА */
 body {
-  background-color: #ffffff; /* todo цвет главного фона #ffffff */
-  color: #212121; /* todo доминантный на макете цвет текста #212121 */
-  font-family: Roboto, sans-serif; /* todo доминантный на макете шрифт Roboto, указан альтернативный вариант шрифта тип семейства (без засечек) */
+  font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
 }
 
+/* ?Палитра цветов */
 .accent {
-  color: #2196f3; /* todo цвет акцента в лого */
+  color: var(--accent-color); /* todo цвет акцента в лого */
 }
 
 .menu-list .menu-item > a {
-  /* todo цвет навигационного меню */
-  color: #212121;
+  color: var(--primary-color); /* todo цвет шрифта навигационного меню */
 }
 
 .top-contacts-item > a {
-  color: #757575; /* todo цвет ссылок mail/tel */
+  color: var(--secondary-color); /* todo цвет ссылок mail/tel */
 }
 
-/* ?ОСНОВНЫЕ ЦВЕТА */
+.header {
+  background-color: var(--background-color-header);
+}
 
-/* !ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
+.hero {
+  background-color: var(--hero-alternate-color);
+}
 
+.footer {
+  background-color: var(--footer-color); /* todo цвет фона футера */
+}
+/* ?Палитра цветов */
+
+/* !CSS Custom Properties (переменные) */
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --white-color-letters: #ffffff;
+  --accent-color: #2196f3;
+  --background-color-header: #ffffff;
+  --background-color-unpaired-section: #e5e5e5;
+  --background-color-paired-section: #f5f4fa;
+  --footer-color: #2f303a;
+  --hero-alternate-color: #2f303a;
+  --background-card: #ffffff;
+  --background-container: #ffffff;
+}
+/* !CSS Custom Properties (переменные) */
+
+/* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 /* убрать стиль маркера */
 .menu-list,
 .top-contacts-list,
@@ -36,7 +59,6 @@ body {
 /* убрать стиль маркера */
 
 /* //vs */
-
 /* //ul {list-style: none;} */ /* убрать стиль маркера через тег */
 
 /* отменяет подчеркивания ссылок, заданое по умолчанию.  */
@@ -52,19 +74,26 @@ body {
   font-style: normal; /* определяет начертание шрифта: обычное */
 }
 
-/* !ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
+.button {
+  padding: 0; /* значение полей вокруг содержимого элемента */
+  border: none; /* установил толщину, стиль и цвет границы вокруг элемента */
+  font: inherit; /* шрифт и текст: наследует значение родителя */
+  color: inherit; /* цвет текста: наследует значение родителя */
+  background-color: transparent; /* цвет фона: устанавливает прозрачный фон */
+}
+/* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 
 /* ? header */
 .menu-list .menu-item :hover,  /* стиль элемента при наведении на него курсора мыши */
 .menu-list .menu-item :focus {
   /* стиль для элемента получающего фокус */
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .top-contacts-list .top-contacts-item :hover,  /* стиль элемента при наведении на него курсора мыши */
 .top-contacts-list .top-contacts-item :focus {
   /* стиль для элемента получающего фокус */
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ? header */
 
@@ -72,42 +101,30 @@ body {
 .button {
   cursor: pointer; /* кнопке задано свойство cursor со значением pointer */
 }
-
 /* ? maine */
 
 /* ? footer */
-
 .footer-list :hover,
 .footer-list :focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-
 /* ? footer */
 
-/* *Палитра цветов */
-
-/* //доминантный на макете цвет текста #212121 */
+/* Палитра цветов */
 /* //доминантный на макете цвет текста #212121 */
 
 /* //цвет вторичного текста #757575 */
-/* //цвет вторичного текста #757575 */
 
-/* //цвет белого текста #ffffff */
 /* //цвет белого текста #ffffff */
 
 /* //цвет акцент #2196F3 */
-/* //цвет акцент #2196F3 */
 
-/* //цвет главного фона #ffffff */
 /* //цвет главного фона #ffffff */
 
 /* //цвет второстепенного фона #F5F4FA */
-/* //цвет второстепенного фона #F5F4FA */
 
-/* цвет футера #2F303A */
-/* цвет футера #2F303A */
-
-/* *Палитра цветов */
+/* //цвет футера #2F303A */
+/* Палитра цветов */
 
 /* todo portfolio.html */
 
