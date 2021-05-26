@@ -1,3 +1,23 @@
+/* !CSS Custom Properties (переменные) */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --second-color-logo-header: #000000;
+  --second-color-logo-footer: #ffffff;
+  --address-color-footer: rgba(255, 255, 255, 0.6);
+  --when-button-pressed-color: #ffffff;
+  --background-color-hero-alternate: #2f303a;
+  --background-color-header: #ffffff;
+  --background-color-unpaired-section: #e5e5e5;
+  --background-color-paired-section: #f5f4fa;
+  --background-color-card: #ffffff;
+  --background-color-container: #ffffff;
+  --background-color-footer: #2f303a;
+}
+/* !CSS Custom Properties (переменные) */
+
 body {
   font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
   color: var(--primary-text-color); /* todo цвет основного текста */
@@ -27,28 +47,7 @@ body {
 .footer {
   background-color: var(--background-color-footer); /* todo цвет фона футера */
 }
-
 /* ?Палитра цветов */
-
-/* !CSS Custom Properties (переменные) */
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --hero-text-color: #ffffff;
-  --accent-text-color: #2196f3;
-  --second-color-logo-header: #000000;
-  --second-color-logo-footer: #ffffff;
-  --address-color-footer: rgba(255, 255, 255, 0.6);
-  --when-button-pressed-color: #ffffff;
-  --background-color-hero-alternate: #2f303a;
-  --background-color-header: #ffffff;
-  --background-color-unpaired-section: #e5e5e5;
-  --background-color-paired-section: #f5f4fa;
-  --background-color-card: #ffffff;
-  --background-color-container: #ffffff;
-  --background-color-footer: #2f303a;
-}
-/* !CSS Custom Properties (переменные) */
 
 /* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 /* убрать стиль маркера */
@@ -62,12 +61,12 @@ body {
 .address-footer-list {
   list-style: none;
 }
-/* убрать стиль маркера */
 
+/* убрать стиль маркера */
 /* //vs */
 /* //ul {list-style: none;} */ /* убрать стиль маркера через тег */
-
 /* отменяет подчеркивания ссылок, заданое по умолчанию.  */
+
 .logo,
 .menu-item > a,
 .top-contacts-item > a,
@@ -109,9 +108,11 @@ body {
   color: var(--accent-text-color);
 }
 
-.menu-item .link.current {
+/* current */
+/* .menu-item .link.current {
   color: var(--accent-text-color);
-}
+} */
+/* current - селектор, представляет элемент, который отображается в данный момент*/
 
 /* ? header */
 
@@ -141,7 +142,6 @@ body {
 /* ? footer */
 
 /* TODO portfolio.html */
-
 /* ? main */
 .filters-item :hover, /* todo стиль элемента при наведении на него курсора мыши */
 .filters-item :focus {
@@ -154,7 +154,6 @@ body {
   ); /* todo определяет цвет текста элемента */
 }
 /* ? main */
-
 /* TODO portfolio.html */
 
 /* //Палитра цветов */
