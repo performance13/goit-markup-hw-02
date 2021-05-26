@@ -4,9 +4,6 @@ body {
 }
 
 /* ?Палитра цветов */
-.accent {
-  color: var(--accent-color); /* todo цвет акцента в лого */
-}
 
 .menu-list .menu-item > a {
   color: var(--primary-color); /* todo цвет шрифта навигационного меню */
@@ -22,11 +19,11 @@ body {
 
 .hero {
   color: var(--hero-letters-color);
-  background-color: var(--hero-alternate-color);
+  background-color: var(--background-color-hero-alternate);
 }
 
 .footer {
-  background-color: var(--footer-color); /* todo цвет фона футера */
+  background-color: var(--background-color-footer); /* todo цвет фона футера */
 }
 
 /* ?Палитра цветов */
@@ -37,13 +34,16 @@ body {
   --secondary-color: #757575;
   --hero-letters-color: #ffffff;
   --accent-color: #2196f3;
+  --second-color-logo-header: #000000;
+  --second-color-logo-footer: #ffffff;
+  --when-button-pressed-color: #ffffff;
+  --background-color-hero-alternate: #2f303a;
   --background-color-header: #ffffff;
   --background-color-unpaired-section: #e5e5e5;
   --background-color-paired-section: #f5f4fa;
-  --footer-color: #2f303a;
-  --hero-alternate-color: #2f303a;
-  --background-card: #ffffff;
-  --background-container: #ffffff;
+  --background-color-card: #ffffff;
+  --background-color-container: #ffffff;
+  --background-color-footer: #2f303a;
 }
 /* !CSS Custom Properties (переменные) */
 
@@ -87,6 +87,13 @@ body {
 /* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 
 /* ? header */
+.header .accent {
+  color: var(--accent-color); /* todo цвет акцента в лого */
+}
+.header .logo {
+  color: var(--second-color-logo-header);
+}
+
 .menu-list .menu-item :hover,  /* стиль элемента при наведении на него курсора мыши */
 .menu-list .menu-item :focus {
   /* стиль для элемента получающего фокус */
@@ -107,10 +114,18 @@ body {
 /* ? maine */
 
 /* ? footer */
+.footer .accent {
+  color: var(--accent-color);
+}
+.footer .logo {
+  color: var(--second-color-logo-footer);
+}
+
 .footer-list :hover,
 .footer-list :focus {
   color: var(--accent-color);
 }
+
 /* ? footer */
 
 /* Палитра цветов */
@@ -129,8 +144,8 @@ body {
 .filters-item :hover, /* стиль элемента при наведении на него курсора мыши */
 .filters-item :focus {
   /* стиль для элемента получающего фокус */
-  background-color: #2196f3; /* определяет цвет фона элемента */
-  color: #ffffff; /* определяет цвет текста элемента */
+  background-color: var(--accent-color); /* определяет цвет фона элемента */
+  color: var(--when-button-pressed-color); /* определяет цвет текста элемента */
 }
 /* ? maine */
 
