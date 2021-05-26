@@ -36,6 +36,7 @@ body {
   --accent-color: #2196f3;
   --second-color-logo-header: #000000;
   --second-color-logo-footer: #ffffff;
+  --address-color-footer: rgba(255, 255, 255, 0.6);
   --when-button-pressed-color: #ffffff;
   --background-color-hero-alternate: #2f303a;
   --background-color-header: #ffffff;
@@ -56,7 +57,7 @@ body {
 .team-list,
 .filters-list,
 .project-list,
-.footer-list {
+.address-footer-list {
   list-style: none;
 }
 /* убрать стиль маркера */
@@ -68,12 +69,12 @@ body {
 .logo,
 .menu-item > a,
 .top-contacts-item > a,
-.footer-list > li > a {
+.address-footer-list > li > a {
   text-decoration: none;
 }
 /* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 
-.footer-list {
+.address-footer-list {
   font-style: normal; /* определяет начертание шрифта: обычное */
 }
 
@@ -91,41 +92,45 @@ body {
   color: var(--accent-color); /* todo цвет акцента в лого */
 }
 .header .logo {
-  color: var(--second-color-logo-header);
+  color: var(--second-color-logo-header); /* todo цвет текста лого */
 }
 
-.menu-list .menu-item :hover,  /* стиль элемента при наведении на него курсора мыши */
+.menu-list .menu-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
 .menu-list .menu-item :focus {
-  /* стиль для элемента получающего фокус */
+  /* todo стиль для элемента получающего фокус */
   color: var(--accent-color);
 }
 
-.top-contacts-list .top-contacts-item :hover,  /* стиль элемента при наведении на него курсора мыши */
+.top-contacts-list .top-contacts-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
 .top-contacts-list .top-contacts-item :focus {
-  /* стиль для элемента получающего фокус */
+  /* todo стиль для элемента получающего фокус */
   color: var(--accent-color);
 }
 /* ? header */
 
 /* ? maine */
 .button {
-  cursor: pointer; /* кнопке задано свойство cursor со значением pointer */
+  cursor: pointer; /* todo кнопке задано свойство cursor со значением pointer */
 }
 /* ? maine */
 
 /* ? footer */
 .footer .accent {
-  color: var(--accent-color);
+  color: var(--accent-color); /* todo цвет акцента в лого */
 }
 .footer .logo {
-  color: var(--second-color-logo-footer);
+  color: var(--second-color-logo-footer); /* todo цвет текста лого */
 }
 
-.footer-list :hover,
-.footer-list :focus {
+.address-footer-list > li > a {
+  color: var(--address-color-footer); /* todo цвет текста адреса */
+}
+
+.address-footer-list :hover, /* todo стиль элемента при наведении на него курсора мыши */
+.address-footer-list :focus {
+  /* todo стиль для элемента получающего фокус */
   color: var(--accent-color);
 }
-
 /* ? footer */
 
 /* Палитра цветов */
@@ -140,13 +145,17 @@ body {
 
 /* todo portfolio.html */
 
-/* ? maine */
-.filters-item :hover, /* стиль элемента при наведении на него курсора мыши */
+/* ? main */
+.filters-item :hover, /* todo стиль элемента при наведении на него курсора мыши */
 .filters-item :focus {
-  /* стиль для элемента получающего фокус */
-  background-color: var(--accent-color); /* определяет цвет фона элемента */
-  color: var(--when-button-pressed-color); /* определяет цвет текста элемента */
+  /* todo стиль для элемента получающего фокус */
+  background-color: var(
+    --accent-color
+  ); /* todo определяет цвет фона элемента */
+  color: var(
+    --when-button-pressed-color
+  ); /* todo определяет цвет текста элемента */
 }
-/* ? maine */
+/* ? main */
 
 /* todo portfolio.html */
