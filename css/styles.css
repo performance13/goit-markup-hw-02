@@ -72,12 +72,9 @@ body {
 /* ? maine */
 
 /* ? footer */
-.footer-list :hover {
-  color: #2196f3;
-}
-
+.footer-list :hover,
 .footer-list :focus {
-  color: blueviolet;
+  color: #2196f3;
 }
 
 /* ? footer */
