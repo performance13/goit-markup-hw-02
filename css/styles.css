@@ -2,7 +2,7 @@
 body {
   background-color: #ffffff; /* todo цвет главного фона #ffffff */
   color: #212121; /* todo доминантный на макете цвет текста #212121 */
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif; /* todo доминантный на макете шрифт Roboto, указан альтернативный вариант шрифта тип семейства (без засечек) */
 }
 
 .accent {
@@ -39,14 +39,14 @@ body {
 
 /* //ul {list-style: none;} */ /* убрать стиль маркера через тег */
 
-/* отменяет подчеркивания у ссылок, которое задано по умолчанию.  */
+/* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 .logo,
 .menu-item > a,
 .top-contacts-item > a,
 .footer-list > li > a {
   text-decoration: none;
 }
-/* отменяет подчеркивания у ссылок, которое задано по умолчанию.  */
+/* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 
 .footer-list {
   font-style: normal; /* определяет начертание шрифта: обычное */
@@ -73,6 +73,7 @@ body {
 /* ? maine */
 
 /* ? footer */
+
 .footer-list :hover,
 .footer-list :focus {
   color: #2196f3;
