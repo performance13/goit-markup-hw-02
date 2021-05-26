@@ -1,16 +1,16 @@
 body {
   font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
-  color: var(--primary-color); /* todo цвет основного текста */
+  color: var(--primary-text-color); /* todo цвет основного текста */
 }
 
 /* ?Палитра цветов */
 
 .menu-list .menu-item > a {
-  color: var(--primary-color); /* todo цвет шрифта навигационного меню */
+  color: var(--primary-text-color); /* todo цвет шрифта навигационного меню */
 }
 
 .top-contacts-item > a {
-  color: var(--secondary-color); /* todo цвет ссылок mail/tel */
+  color: var(--secondary-text-color); /* todo цвет ссылок mail/tel */
 }
 
 .header {
@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-  color: var(--hero-letters-color); /* todo цвет текста hero */
+  color: var(--hero-text-color); /* todo цвет текста hero */
   background-color: var(
     --background-color-hero-alternate
   ); /* todo альтернативный цвет фона hero */
@@ -32,10 +32,10 @@ body {
 
 /* !CSS Custom Properties (переменные) */
 :root {
-  --primary-color: #212121;
-  --secondary-color: #757575;
-  --hero-letters-color: #ffffff;
-  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --accent-text-color: #2196f3;
   --second-color-logo-header: #000000;
   --second-color-logo-footer: #ffffff;
   --address-color-footer: rgba(255, 255, 255, 0.6);
@@ -91,7 +91,7 @@ body {
 
 /* ? header */
 .header .accent {
-  color: var(--accent-color); /* todo цвет акцента в лого */
+  color: var(--accent-text-color); /* todo цвет акцента в лого */
 }
 .header .logo {
   color: var(--second-color-logo-header); /* todo цвет текста лого */
@@ -100,13 +100,13 @@ body {
 .menu-list .menu-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
 .menu-list .menu-item :focus {
   /* todo стиль для элемента получающего фокус */
-  color: var(--accent-color);
+  color: var(--accent-text-color);
 }
 
 .top-contacts-list .top-contacts-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
 .top-contacts-list .top-contacts-item :focus {
   /* todo стиль для элемента получающего фокус */
-  color: var(--accent-color);
+  color: var(--accent-text-color);
 }
 /* ? header */
 
@@ -118,7 +118,7 @@ body {
 
 /* ? footer */
 .footer .accent {
-  color: var(--accent-color); /* todo цвет акцента в лого */
+  color: var(--accent-text-color); /* todo цвет акцента в лого */
 }
 .footer .logo {
   color: var(--second-color-logo-footer); /* todo цвет текста лого */
@@ -131,7 +131,7 @@ body {
 .address-footer-list :hover, /* todo стиль элемента при наведении на него курсора мыши */
 .address-footer-list :focus {
   /* todo стиль для элемента получающего фокус */
-  color: var(--accent-color);
+  color: var(--accent-text-color);
 }
 /* ? footer */
 
@@ -142,7 +142,7 @@ body {
 .filters-item :focus {
   /* todo стиль для элемента получающего фокус */
   background-color: var(
-    --accent-color
+    --accent-text-color
   ); /* todo определяет цвет фона элемента */
   color: var(
     --when-button-pressed-color
