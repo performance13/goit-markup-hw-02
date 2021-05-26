@@ -108,6 +108,11 @@ body {
   /* todo стиль для элемента получающего фокус */
   color: var(--accent-text-color);
 }
+
+.menu-item .link.current {
+  color: var(--accent-text-color);
+}
+
 /* ? header */
 
 /* ? maine */
