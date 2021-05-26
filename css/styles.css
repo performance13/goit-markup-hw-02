@@ -47,6 +47,10 @@ body {
 }
 /* Отменяет подчеркивания у ссылок, которое задано по умолчанию.  */
 
+.footer-list {
+  font-style: normal; /* определяет начертание шрифта: обычное */
+}
+
 /* !ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 
 /* ? header */
@@ -68,6 +72,13 @@ body {
 /* ? maine */
 
 /* ? footer */
+.footer-list :hover {
+  color: #2196f3;
+}
+
+.footer-list :focus {
+  color: blueviolet;
+}
 
 /* ? footer */
 
