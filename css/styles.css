@@ -69,6 +69,9 @@ body {
 /* ? header */
 
 /* ? maine */
+.button {
+  cursor: pointer; /* кнопке задано свойство cursor со значением pointer */
+}
 
 /* ? maine */
 
