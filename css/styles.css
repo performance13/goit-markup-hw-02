@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
-  color: var(--primary-color);
+  color: var(--primary-color); /* todo цвет основного текста */
 }
 
 /* ?Палитра цветов */
@@ -14,12 +14,14 @@ body {
 }
 
 .header {
-  background-color: var(--background-color-header);
+  background-color: var(--background-color-header); /* todo цвет фона header */
 }
 
 .hero {
-  color: var(--hero-letters-color);
-  background-color: var(--background-color-hero-alternate);
+  color: var(--hero-letters-color); /* todo цвет текста hero */
+  background-color: var(
+    --background-color-hero-alternate
+  ); /* todo альтернативный цвет фона hero */
 }
 
 .footer {
@@ -133,17 +135,7 @@ body {
 }
 /* ? footer */
 
-/* Палитра цветов */
-/* //доминантный на макете цвет текста #212121 */
-/* //цвет вторичного текста #757575 */
-/* //цвет белого текста #ffffff */
-/* //цвет акцент #2196F3 */
-/* //цвет главного фона #ffffff */
-/* //цвет второстепенного фона #F5F4FA */
-/* //цвет футера #2F303A */
-/* Палитра цветов */
-
-/* todo portfolio.html */
+/* TODO portfolio.html */
 
 /* ? main */
 .filters-item :hover, /* todo стиль элемента при наведении на него курсора мыши */
@@ -158,4 +150,14 @@ body {
 }
 /* ? main */
 
-/* todo portfolio.html */
+/* TODO portfolio.html */
+
+/* //Палитра цветов */
+/* //доминантный на макете цвет текста #212121 */
+/* //цвет вторичного текста #757575 */
+/* //цвет белого текста #ffffff */
+/* //цвет акцент #2196F3 */
+/* //цвет главного фона #ffffff */
+/* //цвет второстепенного фона #F5F4FA */
+/* //цвет футера #2F303A */
+/* //Палитра цветов */
