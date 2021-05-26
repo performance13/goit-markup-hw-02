@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
+  color: var(--primary-color);
 }
 
 /* ?Палитра цветов */
@@ -20,19 +21,21 @@ body {
 }
 
 .hero {
+  color: var(--hero-letters-color);
   background-color: var(--hero-alternate-color);
 }
 
 .footer {
   background-color: var(--footer-color); /* todo цвет фона футера */
 }
+
 /* ?Палитра цветов */
 
 /* !CSS Custom Properties (переменные) */
 :root {
   --primary-color: #212121;
   --secondary-color: #757575;
-  --white-color-letters: #ffffff;
+  --hero-letters-color: #ffffff;
   --accent-color: #2196f3;
   --background-color-header: #ffffff;
   --background-color-unpaired-section: #e5e5e5;
@@ -112,17 +115,11 @@ body {
 
 /* Палитра цветов */
 /* //доминантный на макете цвет текста #212121 */
-
 /* //цвет вторичного текста #757575 */
-
 /* //цвет белого текста #ffffff */
-
 /* //цвет акцент #2196F3 */
-
 /* //цвет главного фона #ffffff */
-
 /* //цвет второстепенного фона #F5F4FA */
-
 /* //цвет футера #2F303A */
 /* Палитра цветов */
 
