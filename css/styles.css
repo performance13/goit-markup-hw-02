@@ -230,10 +230,10 @@ body {
 .address {
   /* адрес */
   font-family: Roboto;
-  font-weight: regular;
+  /* font-weight: regular; */
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .we-doing-subtitle, /* чем мы занимаемся */
@@ -241,30 +241,30 @@ body {
   /* наша команда */
   font-family: Roboto;
   font-weight: bold;
-  font-size: 36x;
-  line-height: auto;
-  letter-spacing: 3%;
+  font-size: 36px;
+  /* line-height: auto; */
+  letter-spacing: 0.03em;
 }
 
 .team-field-subtitle, /* фамилии сотрудников */
 .team-field-text {
   /* сотрудники в должности */
   font-family: Roboto;
-  font-weight: medium;
+  /* font-weight: medium; */
   /* font-weight: regular; */
-  font-size: 16x;
-  line-height: auto;
-  letter-spacing: 3%;
+  font-size: 16px;
+  /* line-height: auto; */
+  letter-spacing: 0.03em;
 }
 
 /* TODO portfolio.html */
 .filters-list {
   /* фильтр портфолио */
   font-family: Roboto;
-  font-weight: medium;
-  font-size: 16x;
+  /* font-weight: medium; */
+  font-size: 16px;
   line-height: 26px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .name-project-item {
@@ -273,16 +273,16 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .project-category {
   /* тип примера с портфолио */
   font-family: Roboto;
-  font-weight: regular;
-  font-size: 16x;
+  /* font-weight: regular; */
+  font-size: 16px;
   line-height: 30px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 /* TODO portfolio.html */
 
