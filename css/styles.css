@@ -165,3 +165,125 @@ body {
 /* //цвет второстепенного фона #F5F4FA */
 /* //цвет футера #2F303A */
 /* //Палитра цветов */
+
+/* ? fonts */
+.logo {
+  /* лого */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.menu-container, /* меню хедера */
+.top-contacts-container {
+  /* контакты в хедере */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  /* герой */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+}
+
+.hero-title .button {
+  /* Заказать услугу */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+}
+
+.features-subtitle {
+  /* особенности */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  /* text-transform: uppercase; */
+}
+
+.features-text, /* Особенности-текст */
+.address {
+  /* адрес */
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.we-doing-subtitle, /* чем мы занимаемся */
+.team-subtitle {
+  /* наша команда */
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36x;
+  line-height: auto;
+  letter-spacing: 3%;
+}
+
+.team-field-subtitle, /* фамилии сотрудников */
+.team-field-text {
+  /* сотрудники в должности */
+  font-family: Roboto;
+  font-weight: medium;
+  /* font-weight: regular; */
+  font-size: 16x;
+  line-height: auto;
+  letter-spacing: 3%;
+}
+
+/* TODO portfolio.html */
+.filters-list {
+  /* фильтр портфолио */
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 16x;
+  line-height: 26px;
+  letter-spacing: 3%;
+}
+
+.name-project-item {
+  /* примеры с портфолио */
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
+}
+
+.project-category {
+  /* тип примера с портфолио */
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16x;
+  line-height: 30px;
+  letter-spacing: 3%;
+}
+/* TODO portfolio.html */
+
+/* ? fonts */
