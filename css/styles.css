@@ -61,19 +61,16 @@ body {
 .address-footer-list {
   list-style: none;
 }
-
 /* убрать стиль маркера */
 /* //vs */
 /* //ul {list-style: none;} */ /* убрать стиль маркера через тег */
-/* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 
 .logo,
 .menu-item > a,
 .top-contacts-item > a,
 .address-footer-list > li > a {
-  text-decoration: none;
+  text-decoration: none; /* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 }
-/* отменяет подчеркивания ссылок, заданое по умолчанию.  */
 
 .address-footer-list {
   font-style: normal; /* определяет начертание шрифта: обычное */
@@ -197,7 +194,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   /* line-height: 60px; */
-  line-height: 0.022;
+  line-height: 1.363;
   /* or 136% */
   /* text-align: center; */
   letter-spacing: 0.06em;
@@ -226,7 +223,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   /* line-height: 16px; */
-  line-height: 1.142;
+  line-height: 2.142;
   letter-spacing: 0.03em;
   /* text-transform: uppercase; */
 }
@@ -270,7 +267,8 @@ body {
   /* font-weight: medium; */
   font-size: 16px;
   /* line-height: 26px; */
-  line-height: 0.375;
+  line-height: 1.375;
+  /* ! line-height: 0.375;  по ТЗ макета line-height=0.375*/
   letter-spacing: 0.03em;
 }
 
