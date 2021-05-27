@@ -173,7 +173,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  /* line-height: 31px; */
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
@@ -184,7 +185,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  /* line-height: 16px; */
+  line-height: 1.142;
   letter-spacing: 0.02em;
 }
 
@@ -194,7 +196,8 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  /* line-height: 60px; */
+  line-height: 0.022;
   /* or 136% */
   /* text-align: center; */
   letter-spacing: 0.06em;
@@ -207,7 +210,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  /* line-height: 30px; */
+  line-height: 1.875;
   /* identical to box height, or 187% */
   /* display: flex; */
   /* align-items: center; */
@@ -221,7 +225,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  /* line-height: 16px; */
+  line-height: 1.142;
   letter-spacing: 0.03em;
   /* text-transform: uppercase; */
 }
@@ -232,7 +237,8 @@ body {
   font-family: Roboto;
   /* font-weight: regular; */
   font-size: 14px;
-  line-height: 24px;
+  /* line-height: 24px; */
+  line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
@@ -263,7 +269,8 @@ body {
   font-family: Roboto;
   /* font-weight: medium; */
   font-size: 16px;
-  line-height: 26px;
+  /* line-height: 26px; */
+  line-height: 0.375;
   letter-spacing: 0.03em;
 }
 
@@ -272,7 +279,8 @@ body {
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  /* line-height: 36px; */
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -281,7 +289,8 @@ body {
   font-family: Roboto;
   /* font-weight: regular; */
   font-size: 16px;
-  line-height: 30px;
+  /* line-height: 30px; */
+  line-height: 1.875;
   letter-spacing: 0.03em;
 }
 /* TODO portfolio.html */
