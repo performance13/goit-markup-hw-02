@@ -94,7 +94,8 @@ body {
   cursor: pointer;
 }
 
-.hero-title {
+.hero-title,
+.features-subtitle {
   text-transform: uppercase;
 }
 /* ? maine */
