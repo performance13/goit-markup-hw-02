@@ -103,7 +103,7 @@ body {
 }
 
 .hero-button {
-  background-color: var(--accent-text-color);
+  background-color: var(--background-color-button-hero);
   border: none;
   border-radius: 4px;
 }
