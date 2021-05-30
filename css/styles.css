@@ -6,6 +6,8 @@
   --accent-text-color: #2196f3;
   --second-color-logo-header: #000000;
   --second-color-logo-footer: #ffffff;
+  --address-link-place-color: #ffffff;
+  --address-link-mail-phone-color: #ffffff99;
   --address-color-footer: rgba(255, 255, 255, 0.6);
   --when-button-pressed-color: #ffffff;
   --background-color-hero-alternate: #2f303a;
@@ -118,8 +120,12 @@ body {
   color: var(--second-color-logo-footer);
 }
 
-.address-link {
-  color: var(--address-color-footer);
+.address-link-place {
+  color: var(--address-link-place-color);
+}
+.address-link-mail,
+.address-link-phone {
+  color: var(--address-link-mail-phone-color);
 }
 
 .address-footer-list :hover,
