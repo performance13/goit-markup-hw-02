@@ -93,6 +93,10 @@ body {
 .button {
   cursor: pointer;
 }
+
+.hero-title {
+  text-transform: uppercase;
+}
 /* ? maine */
 
 /* ? footer */
