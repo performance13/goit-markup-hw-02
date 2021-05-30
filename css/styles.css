@@ -19,274 +19,201 @@
 /* !CSS Custom Properties (переменные) */
 
 /* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
-/* убрать стиль маркера */
 ul {
   list-style: none;
 }
-/* убрать стиль маркера */
-/* //vs */
-/* //ul {list-style: none;} */ /* убрать стиль маркера через тег */
 
-.logo,
-.menu-item > a,
-.top-contacts-item > a,
-.address-footer-list > li > a {
-  text-decoration: none; /* отменяет подчеркивания ссылок, заданое по умолчанию.  */
+a {
+  text-decoration: none;
 }
 
 .address-footer-list {
-  font-style: normal; /* определяет начертание шрифта: обычное */
+  font-style: normal;
 }
 
 .button {
-  padding: 0; /* значение полей вокруг содержимого элемента */
-  border: none; /* установил толщину, стиль и цвет границы вокруг элемента */
-  font: inherit; /* шрифт и текст: наследует значение родителя */
-  color: inherit; /* цвет текста: наследует значение родителя */
-  background-color: transparent; /* цвет фона: устанавливает прозрачный фон */
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 /* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
 
 body {
-  font-family: Roboto, sans-serif; /* todo доминантный в макете шрифт Roboto, альтернативный вариант шрифта тип семейства (без засечек) */
-  color: var(--primary-text-color); /* todo цвет основного текста */
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
 }
 
-/* ?Палитра цветов */
-
-.menu-list .menu-item > a {
-  color: var(--primary-text-color); /* todo цвет шрифта навигационного меню */
+.menu-list-item-link {
+  color: var(--primary-text-color);
 }
 
-.top-contacts-item > a {
-  color: var(--secondary-text-color); /* todo цвет ссылок mail/tel */
+.top-contacts-item-link {
+  color: var(--secondary-text-color);
 }
 
 .header {
-  background-color: var(--background-color-header); /* todo цвет фона header */
+  background-color: var(--background-color-header);
 }
 
 .hero {
-  color: var(--hero-text-color); /* todo цвет текста hero */
-  background-color: var(
-    --background-color-hero-alternate
-  ); /* todo альтернативный цвет фона hero */
+  color: var(--hero-text-color);
+  background-color: var(--background-color-hero-alternate);
 }
 
 .footer {
-  background-color: var(--background-color-footer); /* todo цвет фона футера */
+  background-color: var(--background-color-footer);
 }
-/* ?Палитра цветов */
 
 /* ? header */
 .header .accent {
-  color: var(--accent-text-color); /* todo цвет акцента в лого */
+  color: var(--accent-text-color);
 }
 .header .logo {
-  color: var(--second-color-logo-header); /* todo цвет текста лого */
+  color: var(--second-color-logo-header);
 }
 
-.menu-list .menu-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
+.menu-list .menu-item :hover,
 .menu-list .menu-item :focus {
-  /* todo стиль для элемента получающего фокус */
   color: var(--accent-text-color);
 }
 
-.top-contacts-list .top-contacts-item :hover,  /* todo стиль элемента при наведении на него курсора мыши */
+.top-contacts-list .top-contacts-item :hover,
 .top-contacts-list .top-contacts-item :focus {
-  /* todo стиль для элемента получающего фокус */
   color: var(--accent-text-color);
 }
 
-/* current */
-/* .menu-item .link.current {
+.current {
   color: var(--accent-text-color);
-} */
-/* current - селектор, представляет элемент, который отображается в данный момент*/
-
+}
 /* ? header */
 
 /* ? maine */
 .button {
-  cursor: pointer; /* todo кнопке задано свойство cursor со значением pointer */
+  cursor: pointer;
 }
 /* ? maine */
 
 /* ? footer */
 .footer .accent {
-  color: var(--accent-text-color); /* todo цвет акцента в лого */
+  color: var(--accent-text-color);
 }
 .footer .logo {
-  color: var(--second-color-logo-footer); /* todo цвет текста лого */
+  color: var(--second-color-logo-footer);
 }
 
-.address-footer-list > li > a {
-  color: var(--address-color-footer); /* todo цвет текста адреса */
+.address-link {
+  color: var(--address-color-footer);
 }
 
-.address-footer-list :hover, /* todo стиль элемента при наведении на него курсора мыши */
+.address-footer-list :hover,
 .address-footer-list :focus {
-  /* todo стиль для элемента получающего фокус */
   color: var(--accent-text-color);
 }
 /* ? footer */
 
 /* TODO portfolio.html */
 /* ? main */
-.filters-item :hover, /* todo стиль элемента при наведении на него курсора мыши */
+.filters-item :hover,
 .filters-item :focus {
-  /* todo стиль для элемента получающего фокус */
-  background-color: var(
-    --accent-text-color
-  ); /* todo определяет цвет фона элемента */
-  color: var(
-    --when-button-pressed-color
-  ); /* todo определяет цвет текста элемента */
+  background-color: var(--accent-text-color);
+  color: var(--when-button-pressed-color);
 }
 /* ? main */
 /* TODO portfolio.html */
 
-/* //Палитра цветов */
-/* //доминантный на макете цвет текста #212121 */
-/* //цвет вторичного текста #757575 */
-/* //цвет белого текста #ffffff */
-/* //цвет акцент #2196F3 */
-/* //цвет главного фона #ffffff */
-/* //цвет второстепенного фона #F5F4FA */
-/* //цвет футера #2F303A */
-/* //Палитра цветов */
-
 /* ? fonts */
 .logo {
-  /* лого */
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  /* line-height: 31px; */
   line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
-.menu-container, /* меню хедера */
+.menu-container,
 .top-contacts-container {
-  /* контакты в хедере */
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  /* line-height: 16px; */
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
 
 .hero-title {
-  /* герой */
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  /* line-height: 60px; */
   line-height: 1.363;
-  /* or 136% */
-  /* text-align: center; */
   letter-spacing: 0.06em;
-  /* text-transform: uppercase; */
 }
 
 .hero-title .button {
-  /* Заказать услугу */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  /* line-height: 30px; */
   line-height: 1.875;
-  /* identical to box height, or 187% */
-  /* display: flex; */
-  /* align-items: center; */
-  /* text-align: center; */
   letter-spacing: 0.06em;
 }
 
 .features-subtitle {
-  /* особенности */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  /* line-height: 16px; */
   line-height: 2.142;
   letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
 }
 
-.features-text, /* Особенности-текст */
+.features-text,
 .address {
-  /* адрес */
   font-family: Roboto;
-  /* font-weight: regular; */
   font-size: 14px;
-  /* line-height: 24px; */
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
-.we-doing-subtitle, /* чем мы занимаемся */
+.we-doing-subtitle,
 .team-subtitle {
-  /* наша команда */
   font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
-  /* line-height: auto; */
   letter-spacing: 0.03em;
 }
 
-.team-field-subtitle, /* фамилии сотрудников */
+.team-field-subtitle,
 .team-field-text {
-  /* сотрудники в должности */
   font-family: Roboto;
-  /* font-weight: medium; */
-  /* font-weight: regular; */
   font-size: 16px;
-  /* line-height: auto; */
   letter-spacing: 0.03em;
 }
 
 /* TODO portfolio.html */
 .filters-list {
-  /* фильтр портфолио */
   font-family: Roboto;
-  /* font-weight: medium; */
   font-size: 16px;
-  /* line-height: 26px; */
   line-height: 1.375;
-  /* ! line-height: 0.375;  по ТЗ макета line-height=0.375*/
   letter-spacing: 0.03em;
 }
 
 .name-project-item {
-  /* примеры с портфолио */
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
-  /* line-height: 36px; */
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .project-category {
-  /* тип примера с портфолио */
   font-family: Roboto;
-  /* font-weight: regular; */
   font-size: 16px;
-  /* line-height: 30px; */
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
 /* TODO portfolio.html */
-
 /* ? fonts */
-
-/* ✅ Работает */
-/* ❌ Никакого эффекта */
