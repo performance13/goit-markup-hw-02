@@ -15,6 +15,7 @@
   --background-color-card: #ffffff;
   --background-color-container: #ffffff;
   --background-color-footer: #2f303a;
+  --background-color-button-hero: #2196f3;
 }
 /* !CSS Custom Properties (переменные) */
 
@@ -228,5 +229,6 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
-/* TODO portfolio.html */
 /* ? fonts */
+
+/* TODO portfolio.html */
