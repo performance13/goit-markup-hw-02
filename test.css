@@ -445,7 +445,7 @@ body {
   padding: 20px;
 }
 
-.post {
+.post00 {
   position: relative;
   max-width: 600px;
   padding: 20px;
@@ -457,10 +457,10 @@ body {
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
-.post-title {
+.post-title00 {
   margin-top: 0;
 }
 
-.post-text {
+.post-text00 {
   margin-bottom: 0;
 }
