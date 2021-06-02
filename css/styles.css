@@ -55,7 +55,7 @@ body {
 
 .hero {
   color: var(--primary-white-color);
-  background-color: var(--background-color-hero-alternate);
+  background-color: var(--background-color-hero-footer);
 }
 
 .footer {
