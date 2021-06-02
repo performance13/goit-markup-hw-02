@@ -12,13 +12,12 @@
   --when-button-pressed-color: #ffffff;
   --background-color-hero-alternate: #2f303a;
   --background-color-header: #ffffff;
-  --background-color-unpaired-section: #e5e5e5;
-  --background-color-paired-section: #f5f4fa;
+  --bgc-team-section: #e5e5e5;
+  --bgc-features-doing-section-button-filters: #f5f4fa;
   --background-color-card: #ffffff;
   --background-color-container: #ffffff;
   --background-color-footer: #2f303a;
   --background-color-button-hero: #2196f3;
-  --background-color-button-filters: #f5f4fa;
 }
 /* !CSS Custom Properties (переменные) */
 
@@ -109,6 +108,15 @@ body {
   background-color: var(--background-color-button-hero);
   border: none;
   border-radius: 4px;
+}
+
+.features-container,
+.we-doing-container {
+  background-color: var(--bgc-features-doing-section-button-filters);
+}
+
+.team-container {
+  background-color: var(--bgc-team-section);
 }
 /* ? maine */
 
@@ -244,7 +252,7 @@ body {
 /* ? fonts */
 
 .filters-button {
-  background-color: var(--background-color-button-filters);
+  background-color: var(--bgc-paired-section-button-filters);
   border: none;
   border-radius: 4px;
 }
