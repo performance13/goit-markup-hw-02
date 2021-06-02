@@ -3,21 +3,19 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --hero-text-color: #ffffff;
-  --accent-text-color: #2196f3;
+  --accent-color: #2196f3;
   --second-color-logo-header: #000000;
   --second-color-logo-footer: #ffffff;
   --address-link-place-color: #ffffff;
   --address-link-mail-phone-color: #ffffff99;
   --address-color-footer: rgba(255, 255, 255, 0.6);
   --when-button-pressed-color: #ffffff;
-  --background-color-hero-alternate: #2f303a;
   --background-color-header: #ffffff;
   --bgc-team-section: #e5e5e5;
   --bgc-features-doing-section-button-filters: #f5f4fa;
   --background-color-card: #ffffff;
   --background-color-container: #ffffff;
-  --background-color-footer: #2f303a;
-  --background-color-button-hero: #2196f3;
+  --background-color-hero-footer: #2f303a;
 }
 /* !CSS Custom Properties (переменные) */
 
@@ -67,12 +65,12 @@ body {
 }
 
 .footer {
-  background-color: var(--background-color-footer);
+  background-color: var(--background-color-hero-footer);
 }
 
 /* ? header */
 .header .accent {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 .header .logo {
   color: var(--second-color-logo-header);
@@ -80,16 +78,16 @@ body {
 
 .menu-list .menu-item :hover,
 .menu-list .menu-item :focus {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 
 .top-contacts-list .top-contacts-item :hover,
 .top-contacts-list .top-contacts-item :focus {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 
 .current {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 /* ? header */
 
@@ -105,7 +103,7 @@ body {
 }
 
 .hero-button {
-  background-color: var(--background-color-button-hero);
+  background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
 }
@@ -122,7 +120,7 @@ body {
 
 /* ? footer */
 .footer .accent {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 .footer .logo {
   color: var(--second-color-logo-footer);
@@ -138,7 +136,7 @@ body {
 
 .address-footer-list :hover,
 .address-footer-list :focus {
-  color: var(--accent-text-color);
+  color: var(--accent-color);
 }
 /* ? footer */
 
@@ -146,7 +144,7 @@ body {
 /* ? main */
 .filters-item :hover,
 .filters-item :focus {
-  background-color: var(--accent-text-color);
+  background-color: var(--accent-color);
   color: var(--when-button-pressed-color);
 }
 /* ? main */
@@ -252,7 +250,7 @@ body {
 /* ? fonts */
 
 .filters-button {
-  background-color: var(--bgc-paired-section-button-filters);
+  background-color: var(--bgc-features-doing-section-button-filters);
   border: none;
   border-radius: 4px;
 }
