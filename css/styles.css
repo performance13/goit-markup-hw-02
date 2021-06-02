@@ -38,6 +38,7 @@ a {
 
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
   color: var(--primary-text-color);
 }
 
@@ -156,8 +157,6 @@ body {
 
 .menu-container,
 .top-contacts-container {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -183,8 +182,6 @@ body {
 }
 
 .features-subtitle {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 2.142;
@@ -193,7 +190,6 @@ body {
 
 .features-text,
 .address {
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -201,7 +197,6 @@ body {
 
 .we-doing-subtitle,
 .team-subtitle {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -209,7 +204,6 @@ body {
 
 .team-field-subtitle,
 .team-field-text {
-  font-family: Roboto;
   font-size: 16px;
   letter-spacing: 0.03em;
 }
@@ -220,14 +214,12 @@ body {
 
 /* TODO portfolio.html */
 .filters-list {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.375;
   letter-spacing: 0.03em;
 }
 
 .name-project-item {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -235,7 +227,6 @@ body {
 }
 
 .project-category {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
